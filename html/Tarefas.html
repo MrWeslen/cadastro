@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas</title>
+    <link rel="stylesheet" type="text/css" href="../Tarefas.css" >
+</head>
+<body>
+    <button onclick="sair()" id="sair"> Sair</button>
+    <h1 id="logado"></h1>
+    <a id="susto" href="../susto.mp4">Clique em mim </a>
+
+    <div id="app">
+       
+        <div id="form">
+            <form id="caixa">
+                <h1> Adicionar Tarefas</h1>
+                <input type="text" placeholder="Descrição do item" id="item" name="item">
+                <button id="Add" onclick="cadastraTarefa()"> Adicionar </button>   
+            </form>
+
+                <div id="tarefas">
+                    <h2 id="ajuste">Tarefas</h2> 
+                    <ul>
+                        <!--  será adicionado de forma automatica no JS
+                            <li>
+                          <span>Tarefa 01</span>
+                          <button> Remover</button>
+                        </li> -->
+                    </ul>
+                </div>   
+        </div>
+
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>
