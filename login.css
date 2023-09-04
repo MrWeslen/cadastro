@@ -16,7 +16,7 @@
 }
 body{
    /** background-image: url(imagens/fundo\ login\ 2.jpg);*/
-    background-color: rgb(231, 216, 195);
+    background-color: rgb(0, 0, 0);
     position: relative;
 	height: 100%;
 	background-repeat: no-repeat;
@@ -35,7 +35,7 @@ body{
 h1{
     text-align: center;
     margin-bottom: 20px;
-    color:#440019;
+    color:#02580d;
 }
 
 .label-float input{
@@ -43,7 +43,7 @@ h1{
     padding: 5px 5px;
     display: inline-block;
     border: 0;
-    border-bottom: 2px solid #440019;
+    border-bottom: 2px solid #02580d;
     background-color: transparent;
     outline: none;
     min-width: 180px;
@@ -65,7 +65,7 @@ h1{
 
 .label-float label{
 
-    color: #440019;
+    color: #02580d;
     pointer-events: none;
     position: absolute;
     top: 0;
@@ -84,7 +84,7 @@ h1{
 
 button{
     background-color: transparent;
-    border-color: #440019;
+    border-color: #02580d;
     padding: 7px;
     font-weight: bold;
     font-size: 12pt;
@@ -92,12 +92,12 @@ button{
     border-radius: 4px;
     cursor: pointer;
     outline: none;
-    color: #440019;
+    color: #02580d;
     transition: all .4s ease-out;
 }
 
 button:hover{
-    background-color: #440019;
+    background-color: #02580d;
     color: #fff;
 }
 .justify-center{
@@ -110,20 +110,20 @@ hr{
     margin-bottom: 10%;
 }
 p{
-    color: #440019;
+    color: #02580d;
     font-size: 14pt;
     text-align: center;
 }
 
 a{
-    color: #c71717b2;
+    color: #084400b2;
     font-weight: bold;
     text-decoration: none;
     transition: all .3s ease-out;
 }
 
 a:hover{
-    color: #440019;
+    color: #0af52a;
 }
 
 .fa-eye{
@@ -131,7 +131,7 @@ a:hover{
     top: 15px;
     right: 10px;
     cursor: pointer;
-    color: #440019;
+    color: #02580d;
 }
 .fa-eye:hover{
     color: #000000;

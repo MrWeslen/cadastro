@@ -45,7 +45,7 @@ function entrar(){
 
         if(usuario.value == userValid.user && senha.value == userValid.senha){
             
-            window.location.href = '../html/Tarefas.html'
+            window.location.href = '../html/home.html'
 
             let token = Math.random().toString(16).substr(2) + Math.random().toString(16).substr(2)
             localStorage.setItem('token', token)
